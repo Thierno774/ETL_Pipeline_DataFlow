@@ -1,0 +1,19 @@
+{ 
+
+                "BigQuery Schema" : [
+
+                        {"name": "Country", "type": "STRING"},
+                        {"name": "Year", "type": "INTEGER"},
+                        {"name": "co2_gigagrams", "type": "FLOAT"}, 
+                        {"name": "hfc_gigagrams", "type": "FLOAT"}, 
+                        {"name": "methane_gigagrams", "type": "FLOAT"}, 
+                        {"name": "pfc_gigagrams", "type" : "FLOAT"},
+                        {"name": "sf6_gigagrams", "type": "FLOAT"}, 
+                        {"name": "n2o_gigagrams", "type": "FLOAT"}
+
+
+                ]
+
+
+
+}
