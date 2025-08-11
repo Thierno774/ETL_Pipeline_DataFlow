@@ -2,7 +2,7 @@
 
  🚀 Load CSV from GCS to BigQuery - Data flow Pipeline
 
-![Sparkify Data Model](/Images/workflow.png)    
+![Sparkify Data Model](/Images/dataFlowPipeline.png)    
 
 
 ## 📝 Description
