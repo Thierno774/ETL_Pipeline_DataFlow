@@ -78,4 +78,8 @@ function convertTovalidYear(yearValue) {
         return (year >= 1900 && year <= 2100) ? year : null; 
 }
 
-``
+```
+# Execution dans BigQuery
+
+![Sparkify Data Model](/Images/dataflow_Query.png)    
+
