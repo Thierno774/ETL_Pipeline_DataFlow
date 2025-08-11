@@ -20,10 +20,9 @@ Pipeline Dataflow automatisé pour :
 ## 📦 Installation
 
 
-```
 2. Function pour Tranformer les données 
 
-```js
+``` js
 
 function transform(line){
     // 1. Clean the line and split into values
