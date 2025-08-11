@@ -1,39 +1,27 @@
 # ETL_Pipeline_DataFlow
 
- 🚀 Load CSV from GCS to BigQuery - Airflow Pipeline
+ 🚀 Load CSV from GCS to BigQuery - Data flow Pipeline
 
 ![Sparkify Data Model](/Images/workflow.png)    
 
 
 ## 📝 Description
-Pipeline Airflow automatisé pour :
+Pipeline Dataflow automatisé pour :
 - Charger des fichiers CSV/JSON depuis Google Cloud Storage (GCS)
 - Créer des tables BigQuery avec validation de schéma
 - Générer des vues analytiques
 - Gérer les erreurs et logs
 
 ## 🛠 Technologies
-- **Google Cloud Platform** (GCS, BigQuery)
+- **Google Cloud Platform** (GCS, Dataflow, BigQuery)
 - **Apache Airflow 2.6+**
 - **Python 3.10+**
 
 ## 📦 Installation
 
-## Structure de code 
-1. Initialisation du DAG
- ```python
-
-import os
-from datetime import datetime, timedelta
-from airflow import DAG
-from airflow.operators.dummy import DummyOperator
-from airflow.contrib.operators.gcs_to_bq import GoogleCloudStorageToBigQueryOperator
-
-
-from airflow.providers.google.cloud.operators.bigquery import BigQueryInsertJobOperator
 
 ```
-2. Définition du DAG Principal
+2. Function pour Tranformer les données 
 
 ```js
 
