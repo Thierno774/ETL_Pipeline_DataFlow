@@ -9,15 +9,6 @@
 Pipeline Dataflow automatisé pour :
 - Charger des fichiers CSV/JSON depuis Google Cloud Storage (GCS)
 - Créer des tables BigQuery avec validation de schéma
-- Générer des vues analytiques
-- Gérer les erreurs et logs
-
-## 🛠 Technologies
-- **Google Cloud Platform** (GCS, Dataflow, BigQuery)
-- **Apache Airflow 2.6+**
-- **Python 3.10+**
-
-## 📦 Installation
 
 
 2. Function pour Tranformer les données 
