@@ -58,7 +58,7 @@ function convertTovalidYear(yearValue) {
 
         if (!yearValue) return null;     
 
-        // Le cas ou la contrue apparait 
+       
 
         const cleaned = yearValue.trim(); 
         if (/^[a-zA-Z]/.test(cleaned)) {
